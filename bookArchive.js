@@ -45,7 +45,7 @@ const displayBooksBySearch = (books) => {
             <img src="https://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg" class="card-img-top text-center image-fluid" alt="cover of:${book.title}" style="height: 350px;">
             <div class="card-body">
                 <h3 class="card-title">${book.title}</h3>
-                <p class="card-text"><span class="fw-bold">Written By:</span> ${book.author_name}</p>
+                <p class="card-text">Written By: ${book.author_name}</p>
                 <small class="card-text">First published in ${book.first_publish_year}</small>
                 <p><span class="fw-bold">Published By:</span> ${book.publisher}</p>
     
