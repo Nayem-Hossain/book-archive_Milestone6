@@ -6,8 +6,8 @@
 
 /*------------------- data and spinner toggle function --------------------- */
 const Toggling = (id, BlockOrNone) => {
-  const spinner = document.getElementById(id);
-  spinner.style.display = BlockOrNone;
+  const spinnerOrData = document.getElementById(id);
+  spinnerOrData.style.display = BlockOrNone;
 };
 
 
